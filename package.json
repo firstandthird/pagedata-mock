@@ -1,0 +1,33 @@
+{
+  "name": "pagedata-mock",
+  "version": "0.0.1",
+  "description": "a mock pagedata server, useful for testing your pagedata projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "lab test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/pagedata-mock.git"
+  },
+  "keywords": [],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/pagedata-mock/issues"
+  },
+  "homepage": "https://github.com/firstandthird/pagedata-mock#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-firstandthird": "^3.0.2",
+    "eslint-plugin-import": "^2.1.0",
+    "lab": "^13.0.1"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  },
+  "dependencies": {
+    "yargs": "^7.0.2"
+  }
+}
